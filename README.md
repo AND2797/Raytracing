@@ -11,6 +11,6 @@ Implementation of a raytracer in Python and C++
   - [ ] Ray - Cube
 - [X] Phong - Blinn Shading (Both)
 - [X] Lambert Shading (Both)
-- [ ] Supersampling AA (Only Python)
+- [X] Supersampling AA (Only Python)
 - [ ] Multisampling AA
 - [ ] Multithreaded Raytracing 
