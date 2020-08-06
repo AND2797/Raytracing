@@ -1,0 +1,1 @@
+clang++ -g Color.cpp Color.hpp Environment.cpp Environment.hpp Image.cpp Image.hpp Light.cpp Light.hpp Material.cpp Material.hpp REngine.cpp REngine.hpp Sphere.cpp Sphere.hpp Vec3.cpp Vec3.hpp main.cpp

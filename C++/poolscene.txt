@@ -1,0 +1,62 @@
+    // Sphere cue_ball(Vec3(-0.74, 0.015, -0.1), 0.02, Material(Color(255, 255, 255)));
+    // Sphere brown_ball(Vec3(-0.60, 0.0, -0.1), 0.02, Material(Color(210, 105, 30)));
+    // Sphere yellow_ball(Vec3(-0.60, 0.2, -0.1), 0.02, Material(Color(255, 255, 30)));
+    // Sphere green_ball(Vec3(-0.60, -0.2, -0.1), 0.02, Material(Color(34, 139, 34)));
+    // Sphere blue_ball(Vec3(0.0, 0.0, -0.1), 0.02, Material(Color(0, 0, 255)));
+    // Sphere pink_ball(Vec3(0.4, 0.0, -0.1), 0.02, Material(Color(255, 105, 180)));
+    // Sphere red_ball1(Vec3()) 
+    // Sphere red_sphere(Vec3(0.75, -0.50, 1.0), 0.4, Material(Color(255, 0, 0)));
+    // Sphere black_sphere(Vec3(0, 0, 0), 0.3, Material(Color(125, 156, 0)));
+    // Sphere blue_sphere(Vec3(-0.75, -0.50, 1.0), 0.4, Material(Color(255, 0, 255)));
+    // Sphere ground(Vec3(0.0, 0.0, -100000.0), 10000.0, Material(Color(0, 255, 0),0.5, 0.5, 0.0, 0.0));
+    // std::vector<Sphere>objects{cue_ball, brown_ball, yellow_ball, green_ball, blue_ball,
+    //                             pink_ball};
+    // double x = 0.45;
+    // for (int i = 0; i < 5; i++)
+    // {
+    //     double size = 0.02;
+    //     int count = 0;
+    //     double y = 0;
+    //     if (i&1) //odd
+    //     {
+    //         while(count < i+1)
+    //         {   
+    //             if (count&1)
+    //             {
+    //             Sphere red_ball(Vec3(x+size, y + 0.02*i, -0.1), 0.02, Material(Color(255, 0, 0)));
+    //             objects.push_back(red_ball);
+    //             }
+    //             else 
+    //             {
+    //             Sphere red_ball(Vec3(x+size, y - 0.02*i, -0.1), 0.02, Material(Color(255, 0, 0)));
+    //             objects.push_back(red_ball);
+    //             }
+    //             count++;
+            
+    //         }
+    //     }
+    //     else // even
+    //     {
+    //         while(count < i + 1)
+    //         {
+    //             if (!count)
+    //             {
+    //                 Sphere red_ball(Vec3(x+size, 0.00, -0.1), 0.02, Material(Color(255, 0, 0)));
+    //                 objects.push_back(red_ball);
+    //             }
+    //             else if (count&1)
+    //             {
+    //                 Sphere red_ball(Vec3(x+size, 0.00 - 0.05*count, -0.1), 0.02, Material(Color(255, 0, 0)));
+    //                 objects.push_back(red_ball);
+    //             }
+    //             else if ((count & 1) != 0 && i!=0)
+    //             {
+    //                 Sphere red_ball(Vec3(x+size, 0.00 + 0.05*(count-1), -0.1), 0.02, Material(Color(255, 0, 0)));
+    //                 objects.push_back(red_ball);
+                
+    //             }
+    //             count++;
+    //         }
+    //     }
+    //     x  += size + 0.02;
+    // }

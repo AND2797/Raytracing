@@ -13,8 +13,19 @@ class Material{
         Material();
         Material(Color col_val);
         Material(Color col_val,double ambient, double diff_val, double spec_val, double ref_val); 
-        Color color_at_surface(Vec3 hit_pos)const;
+        virtual Color color_at_surface(Vec3 hit_pos)const;
 
+};
+
+class Chequered_Material : public Material{
+
+    public:
+        Color color2;
+
+    public:
+        Chequered_Material();
+        Chequered_Material(Color col1, Color col2);
+        Color color_at_surface(Vec3 hit_post)const;
 };
 
 #endif
